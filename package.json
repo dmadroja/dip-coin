@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "dev-test": "nodemon dev-test"
+    "dev-test": "nodemon dev-test",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,11 @@
   "homepage": "https://github.com/dmadroja/dip-coin#readme",
   "devDependencies": {
     "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
     "jest": "^23.6.0",
     "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3"
   }
 }
