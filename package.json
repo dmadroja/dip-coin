@@ -25,7 +25,7 @@
   "homepage": "https://github.com/dmadroja/dip-coin#readme",
   "devDependencies": {
     "crypto-js": "^3.1.9-1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jest": "^23.6.0",
     "nodemon": "^1.18.9"
   },
